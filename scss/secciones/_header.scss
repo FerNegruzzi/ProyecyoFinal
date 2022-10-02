@@ -1,0 +1,28 @@
+// header
+header {
+    .imgCalavera {
+        height: 70px;
+    } 
+    .navbar-nav {
+        @extend %headerTextStyle;
+    }
+
+    .nav-link {
+        @extend %headerTextStyle;
+    }
+
+    .navbar-brand {
+        @extend %headerTextStyle;
+    }
+    
+    .container-fluid {
+        margin: 0px 200px
+    }
+    .navbar-toggler{
+        color: #fff;
+        font-size: 25px;
+    }
+    .navbar-toggler-icon{
+        color: #fff !important;
+    }
+}

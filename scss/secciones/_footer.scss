@@ -1,0 +1,19 @@
+footer {
+    p {
+        @extend %headerTextStyle;
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        margin: 0;
+    }
+
+    a {
+        height: 100px;
+    }
+
+    .footerAccountLogos {
+        font-size: 3rem;
+        display: flex;
+        justify-content: space-between;
+    }
+}
